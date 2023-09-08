@@ -6,22 +6,46 @@
     <title>Personal Budget</title>
     <link rel="stylesheet" href="/reset.css">
     <link rel="stylesheet" href="/main.css">
+
+    <!-- This is an SEO Change #1 Adding a title tag-->
+    <title>Personal Budget Management App - Free Budgeting Tool</title>
+    <!-- This is an SEO Change #2 Adding a Meta tag-->
+    <meta name="description" content="Manage your personal budget effectively with our free budgeting app. Track expenses, receive alerts, and achieve financial stability.">
+
 </head>
 <body>
 
-    <div class="menu">
+    <!-- <div class="menu">
         <ul>
             <li><a href="/">Homepage</a></li>
             <li><a href="/about.html">About</a></li>
             <li><a href="/login.html">Login</a></li>
             <li><a href="https://google.com">Google</a></li>
         </ul>
-    </div>
+    </div> -->
 
-    <div class="hero">
+    <!-- This is a Semantic HTML Change #1 Using <nav> for navigation-->
+    <!-- This is an A11y Change #1 adding ARIA Roles and Labels -->
+    <nav class="menu" role="navigation" aria-label="Main Menu">
+        <ul>
+            <li><a href="/">Homepage</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/login.html">Login</a></li>
+            <li><a href="https://google.com">Google</a></li>
+        </ul>
+    </nav>
+
+    <!-- <div class="hero">
         <h1>Personal Budget</h1>
         <h2>A personal-budget management app</h2>
-    </div>
+    </div> -->
+
+    <!-- This is a Semantic HTML Change #2 Adding a header tag -->
+    <!-- This is an A11y Change #2 adding header tag to improve structure -->
+    <header class="hero">
+        <h1>Personal Budget</h1>
+        <h2>A personal-budget management app</h2>
+    </header>
 
     <div class="container center">
 
@@ -95,11 +119,19 @@
 
     </div>
 
-    <div class="bottom">
+    <!-- <div class="bottom">
         <div class="center">
             All rights reserved &copy; Fabio Nolasco
         </div>
-    </div>
+    </div> -->
+
+    <!-- This is a Semantic HTML Change #3 Adding a footer tag-->
+    <!-- This is an A11y Change #3 adding footer tag to improve structure -->
+    <footer class="bottom">
+        <div class="center">
+            All rights reserved &copy; Fabio Nolasco
+        </div>
+    </footer>
 
 </body>
 </html>
