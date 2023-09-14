@@ -1,0 +1,25 @@
+{
+  "name": "personal-budget1",
+  "version": "1.0.0",
+  "description": "The path to NGInx main folder:\r /usr/share/nginx/html",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Sydney",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/semelech/personal-budget.git"
+  },
+  "bugs": {
+    "url": "https://github.com/semelech/personal-budget/issues"
+  },
+  "homepage": "https://github.com/semelech/personal-budget#readme"
+}
